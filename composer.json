@@ -1,0 +1,32 @@
+{
+  "name": "rcnascimento/apiki-wp-challenge",
+  "description": "Apiki - WordPress Back-end Challenge.",
+  "homepage": "https://github.com/rcnascimento/apiki-wp-challenge",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Rodrigo Nascimento",
+      "homepage": "https://www.linkedin.com/in/rcnascimento",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
+  },
+  "scripts": {
+    "phpcs": [
+      "phpcs -s -p"
+    ],
+    "phpcbf": [
+      "phpcbf -p"
+    ]
+  },
+  "extra": {
+    "scripts-description": {
+      "phpcs": "Analyze code against the WordPress coding standards with PHP_CodeSniffer",
+      "phpcbf": "Fix coding standards warnings/errors automatically with PHP Code Beautifier"
+    }
+  }
+}
